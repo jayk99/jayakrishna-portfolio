@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+   
+}
+.background { 
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.main {
+    background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
+}
+
+a.nav-link.active{
+    background-color: #FF8080!important;
+}
+
+h1.display-5.fw-bold.text-body-emphasis.lh-1.mb-3 {
+    color: #FFCF96 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 40px;
+}
+img.d-block.mx-lg-auto.img-fluid {
+    border-radius: 50%;
+}
+p.lead {
+    color:  #F4DFC8;
+    font-weight: 500;
+}
+section#Top{
+    margin-bottom: 5dvh;
+}
+button.btn.btn-primary.btn-lg.px-4.me-md-2 {
+    background-color: #6e45e2;
+    border: none;
+}
+svg.bi.bi-person {
+    margin-bottom: 20px;
+}
+button.btn.btn-primary.px-5.mb-5 {
+    background-color: #6e45e2;
+    border: none;
+}
+#projects h2 {
+    text-align: center;
+    margin-top: 7px;
+}
+svg.bi.bi-linkedin {
+    margin-bottom: 15px;
+}
+svg.bi.bi-github {
+    margin-bottom: 15px;
+}
+h1.text-body-emphasis {
+    font-size: 20px;
+    padding-top: none;
+}
+svg.bi.bi-envelope {
+    margin-bottom:15px;
+}
+svg.bi.bi-telephone-fill {
+    margin-bottom: 15px;
+}
+svg.bi.bi-linkedin:hover {
+    transform: translateY(-3px);
+}
+svg.bi.bi-github:hover {
+    transform: translateY(-3px);
+}
+button.btn.btn-primary.px-5.mb-5:hover {
+    background-color: #5330ca;
+    border: none;
+}
+button.btn.btn-primary.btn-lg.px-4.me-md-2:hover {
+    background-color: #5330ca;
+    
+}
